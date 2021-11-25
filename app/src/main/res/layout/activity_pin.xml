@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set PIN Here"
+        android:textColor="#000"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/etpin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="#779"
+        android:inputType="numberPassword"
+        android:hint="Enter PIN"
+        android:paddingLeft="5dp" />
+
+    <EditText
+        android:id="@+id/retpin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="#779"
+        android:inputType="numberPassword"
+        android:hint="ReEnter PIN"
+        android:paddingLeft="5dp" />
+
+
+
+    <Button
+        android:id="@+id/btnSetPin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="#125"
+        android:text="Set PIN"
+        android:textColor="#fff" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+
+        android:text="Reset PIN Here"
+        android:textColor="#000"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/etopin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="#779"
+        android:inputType="numberPassword"
+        android:hint="Enter Old PIN"
+        android:paddingLeft="5dp" />
+
+    <EditText
+        android:id="@+id/etnpin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="#779"
+        android:inputType="numberPassword"
+        android:hint="Enter New PIN"
+        android:paddingLeft="5dp" />
+
+    <EditText
+        android:id="@+id/retnpin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="#779"
+        android:inputType="numberPassword"
+        android:hint="ReEnter New PIN"
+        android:paddingLeft="5dp" />
+
+
+
+    <Button
+        android:id="@+id/btnResetPin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="#125"
+        android:text="Reset PIN"
+        android:textColor="#fff" />
+
+
+
+</LinearLayout>

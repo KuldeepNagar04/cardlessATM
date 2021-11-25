@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kuldeep.retrofit">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <activity android:name=".WithdrawSuccess" />
+        <activity android:name=".activity.WithdrawDetail" />
+        <activity android:name=".activity.Balance" />
+        <activity android:name=".activity.PinActivity" />
+        <activity android:name=".activity.TransactionHistory" />
+        <activity android:name=".activity.EditBankDetail" />
+        <activity android:name=".activity.EditDetail" />
+        <activity android:name=".activity.ProfileActivity" />
+        <activity android:name=".activity.LoginActivity" >
+        </activity>
+        <activity android:name=".activity.WelcomeActivity" />
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.QRActivity">
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

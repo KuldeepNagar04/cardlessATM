@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="176dp"
+        android:layout_height="176dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_xlarge"
+        app:srcCompat="@drawable/ic_undraw_wallet" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:text="Personal Details"
+        android:textAppearance="@style/TextAppearance.Aurora.Title" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:gravity="center"
+        android:textSize="@dimen/margin_large"
+        android:text="User Name"
+        android:textAppearance="@style/TextAppearance.Aurora.Title" />
+
+    <TextView
+        android:id="@+id/txt_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="User Name"
+        android:textSize="15sp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:gravity="center"
+        android:textSize="@dimen/margin_large"
+        android:text="Mobile Number"
+        android:textAppearance="@style/TextAppearance.Aurora.Title" />
+
+    <TextView
+        android:id="@+id/txt_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Mobile Number"
+        android:textSize="15sp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:gravity="center"
+        android:textSize="@dimen/margin_large"
+        android:text="Email Id"
+        android:textAppearance="@style/TextAppearance.Aurora.Title" />
+
+    <TextView
+        android:id="@+id/txt_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Email Id"
+        android:textSize="15sp"/>
+
+
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="231dp"
+        android:layout_height="45dp"
+        android:text="Edit Detail" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:text="Personal Details"
+        android:textAppearance="@style/TextAppearance.Aurora.Title" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:gravity="center"
+        android:textSize="@dimen/margin_large"
+        android:text="Acccount Number"
+        android:textAppearance="@style/TextAppearance.Aurora.Title" />
+
+    <TextView
+        android:id="@+id/txt_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Account Number"
+        android:textSize="15sp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:gravity="center"
+        android:textSize="@dimen/margin_large"
+        android:text="Bank Name"
+        android:textAppearance="@style/TextAppearance.Aurora.Title" />
+
+    <TextView
+        android:id="@+id/txt_bank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Bank Name"
+        android:textSize="15sp"/>
+
+
+
+
+    <Button
+        android:id="@+id/btn_set_bank"
+        android:layout_width="231dp"
+        android:layout_height="45dp"
+        android:text="Set bank detail" />
+
+    <Button
+        android:id="@+id/btn_change_pin"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:text="Set/Change PIN" />
+</LinearLayout>
